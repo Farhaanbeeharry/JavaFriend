@@ -15,6 +15,10 @@ var unreadable = [
     "Apologies, I didn't understand. Can you please try again?"
 ]
 
+var forLoopList = [
+    "Redirecting you to Java For-Loops page...",
+    "Opening a new page to teach you For-Loops in Java"
+]
 
 $(document).keypress('.manualInput', function(e) {
     if (e.which == 13) {
@@ -56,6 +60,11 @@ recognition.addEventListener('result', (e) => {
             p = document.createElement('p');
             const random = Math.floor(Math.random() * greetingList.length);
             p.innerText = greetingList[random];
+            document.getElementById('texts').appendChild(p);
+        } else if (text.includes('for loop') || text.includes('for loops')) {
+            p = document.createElement('p');
+            const random = Math.floor(Math.random() * forLoopList.length);
+            p.innerText = forLoopList[random];
             document.getElementById('texts').appendChild(p);
         } else {
             p = document.createElement('p');
