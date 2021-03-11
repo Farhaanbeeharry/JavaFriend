@@ -1,0 +1,83 @@
+#titleStyle {
+    color: #fff;
+    font-size: 5em;
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+    margin: 0;
+}
+
+.container {
+    overflow: auto;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.texts p {
+    float: left;
+    color: black;
+    font-size: 18.0px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    width: 90%;
+    background-color: paleturquoise;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.texts p.sent {
+    background-color: cadetblue;
+    color: white;
+    text-align: right;
+    float: right;
+}
+
+#inputBox {
+    margin-left: -100px;
+    padding-top: 20.0px;
+}
+
+#manualInput {
+    display: block;
+    height: 100.0px;
+    min-height: 100.0px;
+    margin-top: 25.0px;
+    overflow: auto;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    resize: vertical;
+    text-align: left;
+    outline: none;
+}
+
+#hintText {
+    text-align: left;
+    padding-left: 475px;
+    margin-top: 7.5px;
+    font-size: 13.0px;
+}
+
+#speechBtn {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 370px;
+    height: 100px;
+    width: 100px;
+}
+
+#speechIcon {
+    margin-top: 10.0px;
+}
+
+#separator {
+    width: 50%;
+    height: 50.0px;
+    margin-top: -65.0px;
+    margin-left: 385.0px;
+    border-bottom: 1.5px solid white;
+    position: absolute;
+}
