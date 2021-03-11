@@ -20,6 +20,15 @@ var forLoopList = [
     "Opening a new page to teach you For-Loops in Java"
 ]
 
+var whileLoopsList = [
+    "Redirecting you to Java While-Loops page...",
+    "Opening a new page to teach you While-Loops in Java"
+]
+
+var javaDefinition = [
+    "Java is a class-based and an Object Oriented Programming (OOP) language designed to have as few implementation dependencies as possible. "
+]
+
 $(document).keypress('.manualInput', function(e) {
     if (e.which == 13) {
         e.preventDefault();
@@ -65,6 +74,20 @@ recognition.addEventListener('result', (e) => {
             p = document.createElement('p');
             const random = Math.floor(Math.random() * forLoopList.length);
             p.innerText = forLoopList[random];
+            document.getElementById('texts').appendChild(p);
+        } else if (text.includes('while loop') || text.includes('while loops')) {
+            p = document.createElement('p');
+            const random = Math.floor(Math.random() * whileLoopsList.length);
+            p.innerText = whileLoopsList[random];
+            document.getElementById('texts').appendChild(p);
+        } else if (text.includes('what is Java') || text.includes('Java definition') || text.includes('Java description') || text.includes('define Java')) {
+            p = document.createElement('p');
+            const random = Math.floor(Math.random() * javaDefinition.length);
+            p.innerText = javaDefinition[random];
+            document.getElementById('texts').appendChild(p);
+        } else if (text.includes('is Java OOP') || text.includes('is Java object oriented')) {
+            p = document.createElement('p');
+            p.innerText = "Yes, Java is an Object Oriented Programming (OOP) language";
             document.getElementById('texts').appendChild(p);
         } else {
             p = document.createElement('p');
