@@ -1,3 +1,7 @@
+html {
+    background-color: #1b1b1f;
+}
+
 #titleStyle {
     color: #fff;
     font-size: 5em;
@@ -11,6 +15,33 @@
     width: 50%;
     margin: 0 auto;
     position: relative;
+    border: none;
+    height: 250px;
+    overflow-y: scroll;
+    padding-right: 40.0px;
+    padding-left: 20.0px;
+}
+
+
+/* Scrollbar styles */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+ ::-webkit-scrollbar-track {
+    border: 1px solid #70c7be;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #70c7be;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #46c0b4;
 }
 
 .texts p {
@@ -80,4 +111,20 @@
     margin-left: 350.0px;
     border-bottom: 1.5px solid white;
     position: absolute;
+}
+
+#fixedButton {
+    position: fixed;
+    font-size: 18.0px;
+    width: 125px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+#alwaysBottom {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
 }

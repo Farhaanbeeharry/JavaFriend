@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Get Started</title>
+    <title>Your Java Friend</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -18,12 +18,14 @@
 
 <body id="top">
     <footer id="footer">
-        <h1 id="titleStyle">Get Started</h1>
+        <h1 id="titleStyle">Your Java Friend</h1>
 
         <div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam laborum, aut nihil debitis cumque qui enim minus quam culpa,<br>totam sit autem perspiciatis iure aliquid quo tempore voluptas cum veniam.</p>
+            <p>Your Java friend is a helping tool which can teach you and guide you through the steps to learn and program in Java. You can use this application by either typing in<br>the box below or by using voice commands. You can ask the system whatever
+                you want to know about Java. Here are some examples: "What is Java?", "Why<br>use Java?", "Open NetBeans website", "Help me setup my environment", "What are constructors?", "More on characters", "What is regular expressions?" and "Teach
+                me hello world".<br>You can also have fun! Try "Koi Mil Gaya"...</p>
         </div>
-        <div class="container">
+        <div class="container" id="scrollableBox">
             <div class="texts" id="texts">
                 <p>Hello, this is your Java Friend. How can I help you?</p>
             </div>
@@ -33,30 +35,14 @@
             <button id="speechBtn" onclick="speechBtnClicked()"><i class="fas fa-microphone fa-4x" id="speechIcon"></i></button>
             <p id="hintText">Press ENTER to send command or use voice button on the right to speak</p>
         </div>
-        <div id="separator"></div>
+
     </footer>
-
-
-    <footer id="footer">
-
-        <div class="inner">
-            <h2>An application by the LaunchTech team</h2>
-            <p>All the information on this website is published in good faith and for general information purpose only. "Your Java Friend" does not make any warranties about the completeness, reliability and accuracy of this information.
-            </p>
-
-
-
-            <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
-                </li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-            <p class="copyright">&copy; Application by <a href="https://www.linkedin.com/in/farhaan-beeharry/">Farhaan
+    <button id="fixedButton"><i class="fas fa-info-circle" id="speechIcon"></i>&nbsp;&nbsp;Help</button>
+    <div id="alwaysBottom">
+        <p class="copyright">&copy; Application by <a href="https://www.linkedin.com/in/farhaan-beeharry/">Farhaan
 					Beeharry</a>.</p>
-        </div>
-    </footer>
+    </div>
+
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>

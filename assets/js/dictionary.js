@@ -122,63 +122,114 @@ var basicOperatorsRedirection = [
 
 //Decision making
 const decisionMakingLink = "https://www.tutorialspoint.com/java/java_decision_making.htm";
-var decisionMaking = []
-var decisionMakingRedirection = []
+var decisionMaking = [
+    "Decision making structures have one or more conditions to be evaluated or tested by the program, along with a statement or statements that are to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false. To learn more, say 'more about decision making'"
+]
+var decisionMakingRedirection = [
+    "Redirecting you to decision making page..."
+]
 
 //Numbers
 const numbersLink = "https://www.tutorialspoint.com/java/java_numbers.htm";
-var numbers = []
-var numbersRedirection = []
+var numbers = [
+    "Normally, when we work with Numbers, we use primitive data types such as byte, int, long, double, etc... To learn more, say 'more on numbers'"
+]
+var numbersRedirection = [
+    "Redirecting you to numbers page..."
+]
 
 //Characters
 const charactersLink = "https://www.tutorialspoint.com/java/java_characters.htm";
-var characters = []
-var charactersRedirection = []
+var characters = [
+    "A char is a single character, that is a letter, a digit, a punctuation mark, a tab, a space or something similar. A char literal is a single one character enclosed in single quote marks like this. Learn more on characters by saying 'more on characters'"
+]
+var charactersRedirection = [
+    "Redirecting to characters page..."
+]
 
 //Strings
 const stringLink = "https://www.tutorialspoint.com/java/java_strings.htm";
-var string = []
-var stringRedirection = []
+var string = [
+    "Strings, which are widely used in Java programming, are a sequence of characters. In Java programming language, strings are treated as objects. To know more about string, say 'more on strings'"
+]
+var stringRedirection = [
+    "Redirecting to strings page..."
+]
 
 //Arrays
 const arraysLink = "https://www.tutorialspoint.com/java/java_arrays.htm";
-var arrays = []
-var arraysRedirection = []
+var arrays = [
+    "Java provides a data structure, the array, which stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type. Say 'more on arrays' to learn more about arrays"
+]
+var arraysRedirection = [
+    "Redirecting you to the arrays page of Java..."
+]
 
 //Date and Time
 const dateAndTimeLink = "https://www.tutorialspoint.com/java/java_date_time.htm";
-var dateAndTime = []
-var dateAndTimeRedirection = []
+var dateAndTime = [
+    "Java provides the Date class available in java.util package, this class encapsulates the current date and time. Learn more about date and time by saying 'more about date and time'"
+]
+var dateAndTimeRedirection = [
+    "Redirecting you to the date and time page of Java..."
+]
 
 //Regular Expressions
 const regexLink = "https://www.tutorialspoint.com/java/java_regular_expressions.htm";
-var regex = []
-var regexRedirection = []
+var regex = [
+    "Java provides the java.util.regex package for pattern matching with regular expressions. Java regular expressions are very similar to the Perl programming language and very easy to learn. A regular expression is a special sequence of characters that helps you match or find other strings or sets of strings, using a specialized syntax held in a pattern. They can be used to search, edit, or manipulate text and data. To learn more about regular expressions, ask the system 'more on regular expressions'"
+]
+var regexRedirection = [
+    "Redirecting you to the regular expressions page..."
+]
 
 //Methods
 const methodsLink = "https://www.tutorialspoint.com/java/java_methods.htm";
-var methods = []
-var methodsRedirection = []
+var methods = [
+    "A Java method is a collection of statements that are grouped together to perform an operation. When you call the System.out.println() method, for example, the system actually executes several statements in order to display a message on the console. Say 'more on methods' to learn more about methods"
+]
+var methodsRedirection = [
+    "Redirecting you to the methods page..."
+]
 
 //File, input and output
 const fileIOLink = "https://www.tutorialspoint.com/java/java_files_io.htm";
-var fileIO = []
-var fileIORedirection = []
+var fileIO = [
+    "The java.io package contains nearly every class you might ever need to perform input and output (I/O) in Java. All these streams represent an input source and an output destination. The stream in the java.io package supports many data such as primitives, object, localized characters, etc... Say 'more on files and input and output to learn more'"
+]
+var fileIORedirection = [
+    "Redirecting you to the files, input and output page..."
+]
 
 //Exceptions
 const exceptionLink = "https://www.tutorialspoint.com/java/java_exceptions.htm";
-var exception = []
-var exceptionRedirection = []
+var exception = [
+    "An exception (or exceptional event) is a problem that arises during the execution of a program. When an Exception occurs the normal flow of the program is disrupted and the program/Application terminates abnormally, which is not recommended, therefore, these exceptions are to be handled. More on exceptions by saying 'more on exceptions'"
+]
+var exceptionRedirection = [
+    "Redirecting you to the exceptions page..."
+]
+var exceptionReason = [
+    "An exception occurs when a user has entered an invalid data. A file that needs to be opened cannot be found. A network connection has been lost in the middle of communications or the JVM has run out of memory."
+]
 
 //Inner Classes
 const innerClassLink = "https://www.tutorialspoint.com/java/java_innerclasses.htm";
-var innerClass = []
-var innerClassRedirection = []
+var innerClass = [
+    "In Java, just like methods, variables of a class too can have another class as its member. Writing a class within another is allowed in Java. The class written within is called the nested class, and the class that holds the inner class is called the outer class. To learn more, say 'more on nested classes'"
+]
+var innerClassRedirection = [
+    "Redirecting you to the nested classes page..."
+]
 
 //Hello World
 const helloWorldLink = "https://www.tutorialspoint.com/java/index.htm";
-var helloWorld = []
-var helloWorldRedirection = []
+var helloWorld = [
+    "A 'Hello, World!' program generally is a computer program that outputs or displays the message 'Hello, World!'. Such a program is very simple in most programming languages, and is often used to illustrate the basic syntax of a programming language. It is often the first program written by people learning to code. To try the hello world program, say 'teach me hello world'"
+]
+var helloWorldRedirection = [
+    "Redirecting you to the hello world page..."
+]
 
 //Unreadable list
 var unreadable = [
