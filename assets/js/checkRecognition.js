@@ -24,9 +24,9 @@ function checkRecognition(text) {
             document.getElementById('texts').appendChild(p);
         } else {
             p = document.createElement('p');
-            p.innerText = "Okay I have reset my name to Your Java Friend for you. How can I help you?";
+            p.innerText = "Okay I have reset my name to Your Java Friend. How can I help you?";
             document.getElementById('titleStyle').innerText = "Your Java Friend";
-            playVoice("Okay I have reset my name to Your Java Friend for you. How can I help you?");
+            playVoice("Okay I have reset my name to Your Java Friendu. How can I help you?");
             document.getElementById('texts').appendChild(p);
         }
 
