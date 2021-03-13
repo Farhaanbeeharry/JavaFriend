@@ -1,3 +1,7 @@
+window.onload = function() {
+    playVoice("Hello and welcome to this application. If you're asking me to open an external webpage for the first time, it will be blocked by your browser. Kindly allow popups when asked and try the command again. How can I help you?");
+}
+
 $(document).keypress('.manualInput', function(e) {
     if (e.which == 13) {
         e.preventDefault();
