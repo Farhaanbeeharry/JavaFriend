@@ -1,5 +1,5 @@
 window.onload = function() {
-    playVoice("Hello and welcome to this application. If you're asking me to open an external webpage for the first time, it will be blocked by your browser. Kindly allow popups when asked and try the command again. How can I help you?");
+    playVoice("Welcome to this application. If you're asking me to open an external webpage or using voice commands for the first time, it will be blocked by your browser. Kindly allow popups when asked and try again. How can I help you?");
 }
 
 $(document).keypress('.manualInput', function(e) {
@@ -110,6 +110,7 @@ function openApp() {
 }
 
 function validateText(text) {
+    text = text.replace(/\s\s+/g, ' ');
     var text = text.toLowerCase();
     text = text.replace('?', '');
     text = text.replace('!', '');

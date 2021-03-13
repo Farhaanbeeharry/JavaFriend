@@ -91,9 +91,9 @@ function checkRecognition(text) {
     //java definition
     else if (text.includes('open java definition') || text.includes('open what is java') || text.includes('open java description')) {
         p = document.createElement('p');
-        const random = Math.floor(Math.random() * openjavaDefinition.length);
-        p.innerText = openjavaDefinition[random];
-        playVoice(openjavaDefinition[random]);
+        const random = Math.floor(Math.random() * openJavaDefinition.length);
+        p.innerText = openJavaDefinition[random];
+        playVoice(openJavaDefinition[random]);
         document.getElementById('texts').appendChild(p);
         window.setTimeout(function() {
             window.open(javaDefinitionLink);
@@ -114,18 +114,18 @@ function checkRecognition(text) {
     //java advantage
     else if (text.includes('open java advantage') || text.includes("advantages of java") || text.includes('open what are the advantages') || text.includes('open java benefits')) {
         p = document.createElement('p');
-        const random = Math.floor(Math.random() * advantagejavaRedirection.length);
-        p.innerText = advantagejavaRedirection[random];
-        playVoice(advantagejavaRedirection[random]);
+        const random = Math.floor(Math.random() * advantageJavaRedirection.length);
+        p.innerText = advantageJavaRedirection[random];
+        playVoice(advantageJavaRedirection[random]);
         document.getElementById('texts').appendChild(p);
         window.setTimeout(function() {
             window.open(javaAdvantageLink);
         }, 3000);
     } else if (text.includes('why learn java') || text.includes('why use java') || text.includes('advantage of java') || text.includes('why do we use java')) {
         p = document.createElement('p');
-        const random = Math.floor(Math.random() * advantagejava.length);
-        p.innerText = advantagejava[random];
-        playVoice(advantagejava[random]);
+        const random = Math.floor(Math.random() * advantageJava.length);
+        p.innerText = advantageJava[random];
+        playVoice(advantageJava[random]);
         document.getElementById('texts').appendChild(p);
     }
     //netbeans
