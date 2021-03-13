@@ -12,6 +12,29 @@ var greetingList2 = [
     "Greetings, doing good. How can I help you?"
 ]
 
+var helpList = [
+    "Opening the help page for you..."
+]
+
+var goodbyeList = [
+    "Thank you for using my help. Goodbye."
+]
+
+var clearConversation = [
+    "Clearing the conversation for you...",
+    "Throwing the conversation into the bin...",
+    "Bye bye conversation...",
+    "Sweeping the chat box..."
+]
+
+var nameList = [
+    "Haha that's funny because I don't have a name. But you can call me your Java friend as I'm here to help you learn Java",
+    "Can you ask an easier question?",
+    "I'd tell you but I don't like being labelled",
+]
+
+
+
 //Java definition
 const javaDefinitionLink = "https://www.tutorialspoint.com/java/index.htm";
 var javaDefinition = [
@@ -32,6 +55,14 @@ var advantageJavaRedirection = [
 
 //Netbeans
 const netbeansLink = "https://www.netbeans.org/index.html";
+const javaSELink = "https://download.oracle.com/otn-pub/java/jdk/15.0.2%2B7/0d1cfde4252546c6931946de8db48ee2/jdk-15.0.2_windows-x64_bin.exe";
+const downloadNetBeans = "https://downloads.apache.org/netbeans/netbeans/12.0/Apache-NetBeans-12.0-bin-windows-x64.exe";
+var downloadJavaSE = [
+    "Downloading executable Java SE Development Kit 15.0.2 for Windows 64 bits for you..."
+]
+var downloadNetBeansList = [
+    "Downloading executable NetBeans 12.0 for Windows 64 bits for you..."
+]
 var netbeans = [
     "NetBeans is a Java IDE that is free open-source. You can download the NetBeans by asking to 'open NetBeans page'"
 ]
@@ -241,5 +272,5 @@ var unreadable = [
 var koiMilGaya = [
     "Mera dil gaya",
     "Mil hi gaya",
-    "Haha that's funny you're singing xD"
+    "Haha that's funny you're singing"
 ]

@@ -1,130 +1,204 @@
-html {
-    background-color: #1b1b1f;
-}
-
-#titleStyle {
-    color: #fff;
-    font-size: 5em;
-    font-weight: 400;
-    font-family: 'Passion One', cursive;
-    margin: 0;
-}
-
-.container {
-    overflow: auto;
-    width: 50%;
-    margin: 0 auto;
-    position: relative;
-    border: none;
-    height: 250px;
-    overflow-y: scroll;
-    padding-right: 40.0px;
-    padding-left: 20.0px;
-}
-
-
-/* Scrollbar styles */
-
-::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-}
-
- ::-webkit-scrollbar-track {
-    border: 1px solid #70c7be;
-    border-radius: 10px;
-}
-
- ::-webkit-scrollbar-thumb {
-    background: #70c7be;
-    border-radius: 10px;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: #46c0b4;
-}
-
-.texts p {
-    float: left;
-    color: black;
-    font-size: 18.0px;
-    clear: both;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    width: 90%;
-    background-color: paleturquoise;
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.texts p.sent {
-    background-color: cadetblue;
-    color: white;
-    text-align: right;
-    float: right;
-}
-
-#inputBox {
-    margin-left: -100px;
-    padding-top: 20.0px;
-}
-
-#manualInput {
-    display: block;
-    height: 100.0px;
-    min-height: 100.0px;
-    margin-top: 25.0px;
-    overflow: auto;
-    width: 700px;
-    margin: 0 auto;
-    position: relative;
-    resize: vertical;
-    text-align: left;
-    outline: none;
-}
-
-#hintText {
-    text-align: left;
-    padding-left: 475px;
-    margin-top: 7.5px;
-    font-size: 13.0px;
-}
-
-#speechBtn {
-    position: absolute;
-    margin-top: -100px;
-    margin-left: 370px;
-    height: 100px;
-    width: 100px;
-}
-
-#speechIcon {
-    margin-top: 10.0px;
-}
-
-#separator {
-    width: 50%;
-    height: 50.0px;
-    margin-top: -65.0px;
-    margin-left: 350.0px;
-    border-bottom: 1.5px solid white;
-    position: absolute;
-}
-
-#fixedButton {
-    position: fixed;
-    font-size: 18.0px;
-    width: 125px;
-    height: 50px;
-    bottom: 50px;
-    right: 50px;
-}
-
-#alwaysBottom {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    bottom: 0px;
-}
+        html {
+            background-color: #1b1b1f;
+        }
+        
+        #titleStyle {
+            color: #fff;
+            font-size: 5em;
+            font-weight: 400;
+            font-family: 'Passion One', cursive;
+            margin: 0;
+        }
+        
+        .container {
+            overflow: auto;
+            width: 50%;
+            margin: 0 auto;
+            position: relative;
+            border: none;
+            height: 250px;
+            overflow-y: scroll;
+            padding-right: 40.0px;
+            padding-left: 20.0px;
+        }
+        /* Scrollbar styles */
+        
+         ::-webkit-scrollbar {
+            width: 12px;
+            height: 12px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            border: 1px solid #70c7be;
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: #70c7be;
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #46c0b4;
+        }
+        
+        .texts p {
+            float: left;
+            color: black;
+            font-size: 18.0px;
+            clear: both;
+            font-weight: 400;
+            line-height: 1.5;
+            text-align: left;
+            width: 90%;
+            background-color: paleturquoise;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .texts p.sent {
+            background-color: cadetblue;
+            color: white;
+            text-align: right;
+            float: right;
+        }
+        
+        #inputBox {
+            margin-left: -100px;
+            padding-top: 20.0px;
+        }
+        
+        #manualInput {
+            display: block;
+            height: 100.0px;
+            min-height: 100.0px;
+            margin-top: 25.0px;
+            overflow: auto;
+            width: 700px;
+            margin: 0 auto;
+            position: relative;
+            resize: vertical;
+            text-align: left;
+            outline: none;
+        }
+        
+        #hintText {
+            text-align: left;
+            padding-left: 475px;
+            margin-top: 7.5px;
+            font-size: 13.0px;
+        }
+        
+        #speechBtn {
+            position: absolute;
+            margin-top: -100px;
+            margin-left: 370px;
+            height: 100px;
+            width: 100px;
+        }
+        
+        #speechIcon {
+            margin-top: 10.0px;
+        }
+        
+        #volumeIcon {
+            margin-top: 10.0px;
+        }
+        
+        #clearIcon {
+            margin-top: 10.0px;
+        }
+        
+        #separator {
+            width: 50%;
+            height: 50.0px;
+            margin-top: -65.0px;
+            margin-left: 350.0px;
+            border-bottom: 1.5px solid white;
+            position: absolute;
+        }
+        
+        #fixedButtonHelp {
+            position: fixed;
+            font-size: 18.0px;
+            width: 130px;
+            height: 50px;
+            bottom: 50px;
+            right: 50px;
+        }
+        
+        #fixedButtonStop {
+            position: fixed;
+            width: 70px;
+            height: 50px;
+            bottom: 230px;
+            right: 50px;
+        }
+        
+        #fixedButtonMute {
+            position: fixed;
+            width: 110px;
+            height: 50px;
+            bottom: 110px;
+            right: 50px;
+        }
+        
+        #fixedButtonClear {
+            position: fixed;
+            width: 90px;
+            height: 50px;
+            bottom: 170px;
+            right: 50px;
+        }
+        
+        #appBtn {
+            position: fixed;
+            font-size: 18.0px;
+            width: 170px;
+            height: 50px;
+            bottom: 50px;
+            right: 50px;
+        }
+        
+        #alwaysBottom {
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            bottom: 0px;
+        }
+        
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+        
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            right: 110%;
+        }
+        
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+        }
+        
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }

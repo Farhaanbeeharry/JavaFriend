@@ -13,6 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/dictionary.js"></script>
+    <script src="assets/js/checkRecognition.js"></script>
 
 </head>
 
@@ -23,7 +24,7 @@
         <div>
             <p>Your Java friend is a helping tool which can teach you and guide you through the steps to learn and program in Java. You can use this application by either typing in<br>the box below or by using voice commands. You can ask the system whatever
                 you want to know about Java. Here are some examples: "What is Java?", "Why<br>use Java?", "Open NetBeans website", "Help me setup my environment", "What are constructors?", "More on characters", "What is regular expressions?" and "Teach
-                me hello world".<br>You can also have fun! Try "Koi Mil Gaya"...</p>
+                me hello world".<br>You can ask for 'help', 'clear the conversation' and 'clear the conversation and start over again'. You can also have fun! Try asking me "change your name to stupid", "reset your name" or "Koi Mil Gaya"...</p>
         </div>
         <div class="container" id="scrollableBox">
             <div class="texts" id="texts">
@@ -37,10 +38,12 @@
         </div>
 
     </footer>
-    <button id="fixedButton"><i class="fas fa-info-circle" id="speechIcon"></i>&nbsp;&nbsp;Help</button>
+    <button id="fixedButtonClear" data-toggle="tooltip" title="Clear" onclick="clearTexts()"><i class="fas fa-trash fa-2x"  id="clearIcon"></i></button>
+    <button id="fixedButtonStop" data-toggle="tooltip" title="Stop" onclick="cancelSynthesis()"><i class="fas fa-stop-circle fa-2x"  id="speechIcon"></i></button>
+    <button id="fixedButtonMute" data-toggle="tooltip" title="Mute" onclick="muteVoice()"><i class="fas fa-volume-up fa-2x"  id="volumeIcon"></i></button>
+    <button id="fixedButtonHelp" data-toggle="tooltip" title="Help" onclick="openHelp()"><i class="fas fa-info-circle" id="speechIcon"></i>&nbsp;&nbsp;Help</button>
     <div id="alwaysBottom">
-        <p class="copyright">&copy; Application by <a href="https://www.linkedin.com/in/farhaan-beeharry/">Farhaan
-					Beeharry</a>.</p>
+        <p class="copyright">&copy; Application by <a href="https://www.linkedin.com/in/farhaan-beeharry/">Farhaan Beeharry</a>.</p>
     </div>
 
 
