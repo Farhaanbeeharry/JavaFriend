@@ -274,6 +274,14 @@ function checkRecognition(text) {
         playVoice(datatype[random]);
         document.getElementById('texts').appendChild(p);
     }
+    //declaring variable
+    else if (text.includes('declare a variable') || text.includes('declare variable') || text.includes('declaring a variable') || text.includes('declaring variable')) {
+        p = document.createElement('p');
+        const random = Math.floor(Math.random() * declaringVariable.length);
+        p.innerText = declaringVariable[random];
+        playVoice(declaringVariable[random]);
+        document.getElementById('texts').appendChild(p);
+    }
     //variable types
     else if (text.includes('open variable type') || text.includes('more on variable type') || text.includes('go to variable type') || text.includes('variable type page') || text.includes('variable types page')) {
         p = document.createElement('p');
@@ -630,6 +638,14 @@ function checkRecognition(text) {
         const random = Math.floor(Math.random() * goodbyeList.length);
         p.innerText = goodbyeList[random];
         playVoice(goodbyeList[random]);
+        document.getElementById('texts').appendChild(p);
+    }
+    //other programming languages
+    else if (text.includes('what other programming languages exist') || text.includes('list other programming languages') || text.includes('other languages')) {
+        p = document.createElement('p');
+        const random = Math.floor(Math.random() * otherLanguagesList.length);
+        p.innerText = otherLanguagesList[random];
+        playVoice(otherLanguagesList[random]);
         document.getElementById('texts').appendChild(p);
     }
     //unreadable

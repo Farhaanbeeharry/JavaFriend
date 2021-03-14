@@ -124,6 +124,13 @@ var datatypeRedirection = [
     "Redirecting you to the data type page of Java..."
 ]
 
+//Declaring variable
+var declaringVariable = [
+    "A variable can be an integer or a string or a boolean. Here is an example of a integer.\n\nint i = 0;\n\nYou can learn more by asking to 'open variable types'.",
+    "A variable can be an integer or a string or a boolean. Here is an example of a string.\n\nString text = \"Your text here\";\n\nYou can learn more by asking to 'open variable types'.",
+    "A variable can be an integer or a string or a boolean. Here is an example of a boolean.\n\nboolean check = false;\n\nYou can learn more by asking to 'open variable types'."
+]
+
 //Variable types
 const variableTypeLink = "https://www.tutorialspoint.com/java/java_variable_types.htm";
 var variableType = [
@@ -266,6 +273,11 @@ var helloWorldRedirection = [
 var unreadable = [
     "Sorry, I couldn't catch that. Can you try again?",
     "Apologies, I didn't understand. Can you please try again?"
+]
+
+//Other languages
+var otherLanguagesList = [
+    "Some other programming languages are the HTML, CSS, JavaScript, PhP, Dart, C, C++ and Python..."
 ]
 
 //Fun List
