@@ -121,7 +121,7 @@ function checkRecognition(text) {
         window.setTimeout(function() {
             window.open(javaAdvantageLink);
         }, 3000);
-    } else if (text.includes('why learn java') || text.includes('why use java') || text.includes('advantage of java') || text.includes('why do we use java')) {
+    } else if (text.includes('why learn java') || text.includes('why use java') || text.includes('advantage of java') || text.includes('advantages of java') || text.includes('why do we use java')) {
         p = document.createElement('p');
         const random = Math.floor(Math.random() * advantageJava.length);
         p.innerText = advantageJava[random];

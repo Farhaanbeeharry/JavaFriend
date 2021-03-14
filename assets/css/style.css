@@ -102,6 +102,10 @@
             margin-top: 10.0px;
         }
         
+        #homeIcon {
+            margin-top: 15.0px;
+        }
+        
         #volumeIcon {
             margin-top: 10.0px;
         }
@@ -126,6 +130,15 @@
             height: 50px;
             bottom: 50px;
             right: 50px;
+        }
+        
+        #fixedButtonHome {
+            position: fixed;
+            font-size: 18.0px;
+            width: 90px;
+            height: 70px;
+            bottom: 50px;
+            left: 50px;
         }
         
         #fixedButtonStop {
@@ -168,6 +181,13 @@
             bottom: 0px;
         }
         
+        #alwaysBottomHelp {
+            margin-top: 25.0px;
+            width: 100%;
+            text-align: center;
+            bottom: 0px;
+        }
+        
         .tooltip {
             position: relative;
             display: inline-block;
@@ -201,4 +221,10 @@
         
         .tooltip:hover .tooltiptext {
             visibility: visible;
+        }
+        
+        .helpTitleStyle {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 0px;
         }

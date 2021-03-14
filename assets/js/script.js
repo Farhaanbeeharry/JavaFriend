@@ -109,6 +109,10 @@ function openApp() {
     location.href = "getStarted.html";
 }
 
+function goHome() {
+    location.href = "index.html";
+}
+
 function validateText(text) {
     text = text.replace(/\s\s+/g, ' ');
     var text = text.toLowerCase();

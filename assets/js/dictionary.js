@@ -55,7 +55,7 @@ var advantageJavaRedirection = [
 
 //Netbeans
 const netbeansLink = "https://www.netbeans.org/index.html";
-const javaSELink = "https://download.oracle.com/otn-pub/java/jdk/15.0.2%2B7/0d1cfde4252546c6931946de8db48ee2/jdk-15.0.2_windows-x64_bin.exe";
+const javaSELink = "https://www.oracle.com/java/technologies/javase-jdk15-downloads.html";
 const downloadNetBeans = "https://downloads.apache.org/netbeans/netbeans/12.0/Apache-NetBeans-12.0-bin-windows-x64.exe";
 var downloadJavaSE = [
     "Downloading executable Java SE Development Kit 15.0.2 for Windows 64 bits for you..."
