@@ -100,6 +100,16 @@ function muteVoice() {
     }
 }
 
+function muteByVoice() {
+    muted = 1;
+    document.getElementById('volumeIcon').classList = "fas fa-volume-mute fa-2x";
+}
+
+function unmuteByVoice() {
+    muted = 0;
+    document.getElementById('volumeIcon').classList = "fas fa-volume-up fa-2x";
+}
+
 function openHelp() {
     cancelSynthesis();
     location.href = "help.html";

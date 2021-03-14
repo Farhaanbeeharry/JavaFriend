@@ -12,6 +12,17 @@ var greetingList2 = [
     "Greetings, doing good. How can I help you?"
 ]
 
+var muteList = [
+    "Okay I'm muted.",
+    "Okay I have thrown my mouth away.",
+    "That's rude but okay I won't talk."
+]
+
+var unmuteList = [
+    "Hurray I can now talk.",
+    "I'm sure you missed my voice, that's why you unmuted me."
+]
+
 var helpList = [
     "Opening the help page for you..."
 ]

@@ -12,6 +12,35 @@ function checkRecognition(text) {
         window.setTimeout(function() {
             openHelp();
         }, 3000);
+    } else if (text.includes('unmute')) {
+        if (muted == 1) {
+            p = document.createElement('p');
+            const random = Math.floor(Math.random() * unmuteList.length);
+            p.innerText = unmuteList[random];
+            unmuteByVoice();
+            playVoice(unmuteList[random]);
+
+        } else if (muted == 0) {
+            p = document.createElement('p');
+            p.innerText = "I'm already unmuted. How can I help you?";
+            playVoice("I'm already unmuted. How can I help you?");
+        }
+        document.getElementById('texts').appendChild(p);
+    } else if (text.includes('mute')) {
+
+        if (muted == 0) {
+            p = document.createElement('p');
+            const random = Math.floor(Math.random() * muteList.length);
+            p.innerText = muteList[random];
+            playVoice(muteList[random]);
+            muteByVoice();
+        } else if (muted == 1) {
+            p = document.createElement('p');
+            p.innerText = "I'm mute already. How can I help you?";
+        }
+        document.getElementById('texts').appendChild(p);
+
+
     }
     //name
     else if (text.includes('reset your name')) {
