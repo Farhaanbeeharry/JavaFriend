@@ -269,8 +269,12 @@ var unreadable = [
 ]
 
 //Fun List
+var koiMilGayaLink = "https://www.youtube.com/watch?v=Jzd4bma3QNo&ab_channel=SonyMusicIndiaVEVO";
+var koiMilGayaRedirection = [
+    "Opening the song Koi Mil Gaya from the movie Kuch Kuch Hota hai in a new tab for you to sing along..."
+]
 var koiMilGaya = [
-    "Mera dil gaya",
-    "Mil hi gaya",
-    "Haha that's funny you're singing"
+    "Mera dil gaya... Haha you can play the song by saying 'play koi mil gaya'...",
+    "Mil hi gaya... Haha you can play the song by saying 'play koi mil gaya'...",
+    "Haha that's funny you're singing... You can play the song by saying 'play koi mil gaya'..."
 ]

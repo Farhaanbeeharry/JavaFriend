@@ -73,7 +73,16 @@ function checkRecognition(text) {
 
     }
     //Fun
-    else if (text.includes("koi mil gaya")) {
+    else if (text.includes("play koi mil gaya")) {
+        p = document.createElement('p');
+        const random = Math.floor(Math.random() * koiMilGayaRedirection.length);
+        p.innerText = koiMilGayaRedirection[random];
+        playVoice(koiMilGayaRedirection[random]);
+        document.getElementById('texts').appendChild(p);
+        window.setTimeout(function() {
+            window.open(koiMilGayaLink);
+        }, 3000);
+    } else if (text.includes("koi mil gaya")) {
         p = document.createElement('p');
         const random = Math.floor(Math.random() * koiMilGaya.length);
         p.innerText = koiMilGaya[random];
