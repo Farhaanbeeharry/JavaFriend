@@ -1,18 +1,7 @@
 function checkRecognition(text) {
 
     text = validateText(text);
-
-    //help
-    if (text.includes('help')) {
-        p = document.createElement('p');
-        const random = Math.floor(Math.random() * helpList.length);
-        p.innerText = helpList[random];
-        playVoice(helpList[random]);
-        document.getElementById('texts').appendChild(p);
-        window.setTimeout(function() {
-            openHelp();
-        }, 3000);
-    } else if (text.includes('unmute')) {
+    if (text.includes('unmute')) {
         if (muted == 1) {
             p = document.createElement('p');
             const random = Math.floor(Math.random() * unmuteList.length);
@@ -217,6 +206,17 @@ function checkRecognition(text) {
         p.innerText = environmentSetup[random];
         playVoice(environmentSetup[random]);
         document.getElementById('texts').appendChild(p);
+    }
+    //help
+    else if (text.includes('help')) {
+        p = document.createElement('p');
+        const random = Math.floor(Math.random() * helpList.length);
+        p.innerText = helpList[random];
+        playVoice(helpList[random]);
+        document.getElementById('texts').appendChild(p);
+        window.setTimeout(function() {
+            openHelp();
+        }, 3000);
     }
     //Loops
     else if (text.includes('read more on loop') || text.includes('more on loop') || text.includes('open loops page') || text.includes('open loop page') || text.includes('more about loop')) {
