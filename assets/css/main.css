@@ -2,13 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
 
-/*
-	Full Motion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-
 /* Reset */
 
 html,
@@ -1440,7 +1433,7 @@ body.is-loading #banner:before {
 /* Main */
 
 #main {
-    padding: 4em 0 2em 0;
+    padding: 7em 0 7em 0;
 }
 
 @media screen and (max-width: 736px) {
@@ -1468,6 +1461,7 @@ body.is-loading #banner:before {
     padding: 0 0 2em 0;
     background-color: #1b1b1f;
     text-align: center;
+    padding-top: 30px;
     margin-bottom: -50.0px;
 }
 
